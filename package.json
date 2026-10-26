@@ -1,0 +1,27 @@
+{
+  "name": "telegram-music-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot that searches and downloads YouTube audio directly using a custom API.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "music",
+    "youtube",
+    "telegraf"
+  ],
+  "author": "Don",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
